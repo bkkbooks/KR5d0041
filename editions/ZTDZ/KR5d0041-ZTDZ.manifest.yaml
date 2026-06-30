@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0041/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0041/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝內經靈樞略
+  date: '2015-08-29 01:14:37.133568'
+  source:
+    repository: kanripo
+    path: KR5d0041
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0041_000-ZTDZ.yaml, hash: 'sha256:df08055e35ca4103448bc309b9e3a92e440a99168d9fe360a06f3a00a69109e8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0041_000-ZTDZ.markers.yaml, hash: 'sha256:344e525ed7ad418483a498d946fd6dd54401803db6b08ec6c7c59e1f147f1d95'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0041_SJB_000-210383c
+    span:
+    - body
+    - 0
+    - 2102
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:2615fc4cd8ffea5752f53ea5e428ecb75d0a5615e11170c0980103c9a5494a5e
